@@ -60,7 +60,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/react", {\
           "packageLocation": "./packages/react/",\
           "packageDependencies": [\
-            ["@newline-ds/react", "workspace:packages/react"]\
+            ["@newline-ds/react", "workspace:packages/react"],\
+            ["@newline-ds/foundation", "workspace:packages/foundation"]\
           ],\
           "linkType": "SOFT"\
         }]\
