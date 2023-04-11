@@ -8,6 +8,8 @@ __metadata:
 "@newline-ds/foundation@workspace:^, @newline-ds/foundation@workspace:packages/foundation":
   version: 0.0.0-use.local
   resolution: "@newline-ds/foundation@workspace:packages/foundation"
+  dependencies:
+    typescript: ^5.0.4
   languageName: unknown
   linkType: soft
 
@@ -16,6 +18,7 @@ __metadata:
   resolution: "@newline-ds/react@workspace:packages/react"
   dependencies:
     "@newline-ds/foundation": "workspace:^"
+    typescript: ^5.0.4
   languageName: unknown
   linkType: soft
 
@@ -25,6 +28,7 @@ __metadata:
   dependencies:
     "@newline-ds/foundation": "workspace:^"
     "@newline-ds/react": "workspace:^"
+    typescript: ^5.0.4
   languageName: unknown
   linkType: soft
 

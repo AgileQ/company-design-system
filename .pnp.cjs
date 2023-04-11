@@ -52,7 +52,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/foundation", {\
           "packageLocation": "./packages/foundation/",\
           "packageDependencies": [\
-            ["@newline-ds/foundation", "workspace:packages/foundation"]\
+            ["@newline-ds/foundation", "workspace:packages/foundation"],\
+            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -62,7 +63,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/react/",\
           "packageDependencies": [\
             ["@newline-ds/react", "workspace:packages/react"],\
-            ["@newline-ds/foundation", "workspace:packages/foundation"]\
+            ["@newline-ds/foundation", "workspace:packages/foundation"],\
+            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -73,7 +75,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@newline-ds/storybook", "workspace:packages/storybook"],\
             ["@newline-ds/foundation", "workspace:packages/foundation"],\
-            ["@newline-ds/react", "workspace:packages/react"]\
+            ["@newline-ds/react", "workspace:packages/react"],\
+            ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"]\
           ],\
           "linkType": "SOFT"\
         }]\
