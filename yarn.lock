@@ -13,6 +13,8 @@ __metadata:
 "@newline-ds/react@workspace:^, @newline-ds/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@newline-ds/react@workspace:packages/react"
+  dependencies:
+    "@newline-ds/foundation": "workspace:^"
   languageName: unknown
   linkType: soft
 
